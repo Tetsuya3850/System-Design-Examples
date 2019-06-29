@@ -1,4 +1,4 @@
-package com.example.cache;
+package com.example.springbootredis;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;

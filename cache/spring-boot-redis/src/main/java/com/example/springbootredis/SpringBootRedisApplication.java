@@ -1,4 +1,4 @@
-package com.example.cache;
+package com.example.springbootredis;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -8,10 +8,10 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableCaching
-public class CacheApplication {
+public class SpringBootRedisApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CacheApplication.class, args);
+		SpringApplication.run(SpringBootRedisApplication.class, args);
 	}
 
 	@Bean

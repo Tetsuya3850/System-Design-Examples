@@ -1,4 +1,4 @@
-package com.example.cache;
+package com.example.springbootredis;
 
 public class BookNotFoundException extends RuntimeException {
 

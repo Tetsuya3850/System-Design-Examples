@@ -1,4 +1,4 @@
-package com.example.cache;
+package com.example.springbootredis;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
