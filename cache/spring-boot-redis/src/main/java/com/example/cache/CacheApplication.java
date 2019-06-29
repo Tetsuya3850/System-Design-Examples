@@ -17,7 +17,7 @@ public class CacheApplication {
 	@Bean
 	public CommandLineRunner loadData(BookRepository bookRepository) {
 		return (args) -> {
-			bookRepository.save(new Book("isbn-1234", "Some Book"));
+			bookRepository.save(new Book("9783161484100", "Some Book"));
 		};
 	}
 }

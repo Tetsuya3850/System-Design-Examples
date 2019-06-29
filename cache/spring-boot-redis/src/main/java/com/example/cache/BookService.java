@@ -14,8 +14,8 @@ public class BookService {
         this.bookRepository = bookRepository;
     }
 
-    @Cacheable("books")
-    public Book findBookByIsbn(String isbn){
+    @Cacheable(cacheNames="books", key="#isbn", condition="#isbn.length() == 13")
+    public Book findBookByIsbn(String isbn, String unrelatedArg){
         simulateSlowService();
         return bookRepository
                 .findByIsbn(isbn)
