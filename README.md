@@ -6,6 +6,4 @@
 - [High Scalability](http://highscalability.com/)
 - [CS75 (Summer 2012) Lecture 9 Scalability Harvard Web Development David Malan](https://www.youtube.com/watch?v=-W9F__D3oY4&list=PLmhRNZyYVpDmLpaVQm3mK5PY5KB_4hLjE&index=10)
 
-### Spring Cloud Resources
-
-- [Spring Cloud AWS](https://cloud.spring.io/spring-cloud-aws/spring-cloud-aws.html)
+### Spring Resources
