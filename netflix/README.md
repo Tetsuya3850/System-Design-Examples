@@ -14,3 +14,5 @@
 - [Spring Guides: Routing and Filtering](https://spring.io/guides/gs/routing-and-filtering/)
 - [Spring Guides: Client Side Load Balancing with Ribbon and Spring Cloud](https://spring.io/guides/gs/client-side-load-balancing/)
 - [Spring Guides: Centralized Configuration](https://spring.io/guides/gs/centralized-configuration/)
+- [Spring Cloud at Netflix](https://www.youtube.com/watch?v=6wvVANQ6EJ8&t)
+- [Building Microservices with Spring Cloud](https://www.youtube.com/watch?v=ZyK5QrKCbwM&t)

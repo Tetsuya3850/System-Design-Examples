@@ -18,15 +18,4 @@ public class BookController {
     public String toRead() {
         return bookService.readingList();
     }
-
-    @GetMapping(value = "/available")
-    public String available() {
-        return bookService.availableList();
-    }
-
-    @GetMapping(value = "/checked-out")
-    public String checkedOut() {
-        return bookService.checkedOutList();
-    }
-
 }

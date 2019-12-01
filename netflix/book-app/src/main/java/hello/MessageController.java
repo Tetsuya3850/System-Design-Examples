@@ -14,7 +14,6 @@ public class MessageController {
 
     @RequestMapping("/message")
     String getMessage() {
-        System.out.println(message);
         return this.message;
     }
 }
