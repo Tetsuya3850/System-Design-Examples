@@ -17,7 +17,7 @@ public class BookService {
 
     @HystrixCommand(fallbackMethod = "reliable")
     public String readingList() {
-        return restTemplate.getForObject("http://localhost:9997/recommended", String.class);
+        return restTemplate.getForObject("http://recommendation/recommended", String.class);
     }
 
     public String reliable() {
