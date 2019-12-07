@@ -7,3 +7,8 @@
 - [CS75 (Summer 2012) Lecture 9 Scalability Harvard Web Development David Malan](https://www.youtube.com/watch?v=-W9F__D3oY4&list=PLmhRNZyYVpDmLpaVQm3mK5PY5KB_4hLjE&index=10)
 
 ### Spring Resources
+
+### Resources
+
+- [Redis](https://redis.io/)
+- [Docker][https://www.docker.com/]
