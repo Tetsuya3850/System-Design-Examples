@@ -15,7 +15,7 @@ public class BookService {
     }
 
     @Cacheable(cacheNames="books", key="#isbn", condition="#isbn.length() == 13")
-    public Book findBookByIsbn(String isbn, String unrelatedArg){
+    public Book findBookByIsbn(String isbn){
         simulateSlowService();
         return bookRepository
                 .findByIsbn(isbn)
@@ -24,7 +24,7 @@ public class BookService {
 
     private void simulateSlowService() {
         try {
-            long time = 3000L;
+            long time = 10000L;
             Thread.sleep(time);
         } catch (InterruptedException e) {
             throw new IllegalStateException(e);

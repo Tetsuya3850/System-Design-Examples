@@ -19,7 +19,7 @@ public class BookController {
 
     @GetMapping("/isbn/{isbn}")
     public Book findBookByIsbn(@PathVariable String isbn){
-        return bookService.findBookByIsbn(isbn, "UNRELATED_ARG");
+        return bookService.findBookByIsbn(isbn);
     }
 
 }
